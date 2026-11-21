@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://en-us-nervealive.vercel.app/sitemap.xml

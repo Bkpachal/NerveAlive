@@ -1,0 +1,30 @@
+NerveAlive Vercel Website - SEO & Indexing Setup
+
+1. Deploy
+Upload the contents of this ZIP to the root of your GitHub repository, connect it to Vercel and deploy.
+Configured website: https://en-us-nervealive.vercel.app
+
+2. Sitemap and robots
+robots.txt: https://en-us-nervealive.vercel.app/robots.txt
+Sitemap: https://en-us-nervealive.vercel.app/sitemap.xml
+Submit the sitemap in Google Search Console and Bing Webmaster Tools after deployment.
+
+3. Google Search Console
+The HTML retains the Google verification meta tag supplied in your source HTML. Confirm that it belongs to the new URL-prefix property. If Search Console provides a different token, replace the google-site-verification meta content in index.html and redeploy. Then submit https://en-us-nervealive.vercel.app/sitemap.xml.
+
+4. Bing Webmaster Tools
+The HTML retains the msvalidate.01 meta tag supplied in your source. Confirm it is valid for this website in Bing Webmaster Tools; replace it with the token generated for this site if required. Submit the sitemap URL above.
+
+5. IndexNow
+Key file URL: https://en-us-nervealive.vercel.app/7c4e9a12b83d4f6aa1e0c59b27d86341.txt
+After deployment, open that URL and confirm it displays exactly: 7c4e9a12b83d4f6aa1e0c59b27d86341
+Submit/notify the homepage URL through Bing Webmaster Tools or an IndexNow-supported integration. A key file and sitemap do not guarantee indexing.
+
+6. Before publishing
+- Test page sections, mobile navigation, images and checkout links.
+- All purchase links use your exact affiliate URL:
+  https://mwebkivo.com/11330/11386/6/?
+- Verify package prices, shipping, refund/guarantee terms and ingredient details against the live seller checkout. These can change.
+- This is a dietary supplement information page, not medical advice or a treatment/cure claim.
+
+Search engines independently decide whether and when to index pages. Submission does not guarantee indexing or rankings.
